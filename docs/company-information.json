@@ -1,0 +1,193 @@
+{
+  "source": "Company information and images supplied by the user in this conversation",
+  "updated_on": "2026-10-22",
+  "company": "AGANO Legacy Resources",
+  "corporate_history_reference": "RIFA; no expansion, legal succession date or registration details supplied",
+  "team": {
+    "reported_total": 300,
+    "description": "Mining and metallurgical professionals; not reclassified as audited employee headcount"
+  },
+  "head_office": "Room 10, Tauro Tragus Building, Kwekwe, Zimbabwe",
+  "telephone": "+263 78 094 8702",
+  "email": "info@aganolegacyresources.co.zw",
+  "whatsapp_configured_number": "+263780948702",
+  "office_hours": {
+    "time_zone": "Africa/Harare",
+    "monday_to_thursday": "08:00–18:00",
+    "friday": "08:00–16:00",
+    "sunday": "09:00–13:00",
+    "saturday": null
+  },
+  "mines": [
+    {
+      "slug": "globe-and-phoenix",
+      "name": "LonRho Gold & Antimony Mine",
+      "short": "LonRho",
+      "commodity": "Gold & antimony",
+      "location": "Globe & Phoenix complex, Kwekwe, Zimbabwe",
+      "query": "LonRho Gold Antimony Mine, Globe and Phoenix, Kwekwe, Zimbabwe",
+      "summary": "Gold and antimony reef development within Kwekwe’s historic Globe & Phoenix complex.",
+      "intro": "Situated in Kwekwe within the Globe & Phoenix complex. This mine averages 10 grams a tonne and 35-45% SB for antimony. LonRho is currently on level 2 at 44 meters and promises to be our best producing shaft.",
+      "paragraphs": [],
+      "facts": [
+        [
+          "Principal minerals",
+          "Gold and antimony"
+        ],
+        [
+          "Reported gold grade",
+          "10 g/t"
+        ],
+        [
+          "Reported antimony grade",
+          "35–45% Sb"
+        ],
+        [
+          "Current workings",
+          "Level 2 · 44 m depth"
+        ]
+      ],
+      "image": "mineral-samples",
+      "caption": "Material samples · AGANO image collection",
+      "verbatim_title": "LonRho - Gold & Antimony Mine"
+    },
+    {
+      "slug": "sebakwe",
+      "name": "Anzac Antimony Mine",
+      "short": "Anzac",
+      "commodity": "Antimony",
+      "location": "Sebakwe block, north of Kwekwe, Midlands Province, Zimbabwe",
+      "query": "Anzac Antimony Mine, Sebakwe, Zimbabwe",
+      "summary": "An antimony project in the Sebakwe block, with reef development directed towards the main Jojo ore body.",
+      "intro": "Anzac is located north of Kwekwe in the Sebakwe block of Zimbabwe’s Midlands Province. It forms part of the feed network associated with our Sebakwe antimony processing facility.",
+      "paragraphs": [
+        "A minor reef has been intersected at 18 metres. The development objective is to intersect the main Jojo ore body at a target depth of 60 metres.",
+        "That target describes the intended next development outcome. Our focus is on strengthening the geological understanding, planning the work carefully and connecting mine development with the requirements of the processing route."
+      ],
+      "facts": [
+        [
+          "Principal mineral",
+          "Antimony"
+        ],
+        [
+          "Minor reef intersection",
+          "18 m"
+        ],
+        [
+          "Main Jojo ore body",
+          "Target depth: 60 m"
+        ],
+        [
+          "Location",
+          "Sebakwe block · Midlands Province"
+        ]
+      ],
+      "image": "anzac-headgear",
+      "caption": "Shaft headgear at Anzac Antimony Mine · Sebakwe block, Zimbabwe"
+    },
+    {
+      "slug": "sherwood",
+      "name": "Sherwood Block Gold Mine",
+      "short": "Sherwood Block",
+      "commodity": "Gold",
+      "location": "Central Midlands greenstone belt, Zimbabwe",
+      "query": "AGANO Sherwood Block Gold Mine, Zimbabwe",
+      "summary": "Underground reef development and open-cast mining within the Midlands greenstone belt.",
+      "intro": "This block is in the prominent, geologically significant mineral location situated within the central part of the Archean Midlands greenstone belt on the Zimbabwe Craton, positioning it along the historically prolific Sherwood Deformation Zone (SDZ). Operations utilize one primary deep-level shaft for targeted underground reef development alongside a high-volume open-cast mining operation to efficiently harvest the surface extensions of the continuous ore body.",
+      "paragraphs": [],
+      "facts": [
+        [
+          "Principal mineral",
+          "Gold"
+        ],
+        [
+          "Geological setting",
+          "Midlands greenstone belt"
+        ],
+        [
+          "Underground access",
+          "One primary deep-level shaft"
+        ],
+        [
+          "Mining approaches",
+          "Underground development & open-cast mining"
+        ]
+      ],
+      "image": "surface-excavation",
+      "caption": "Surface excavation · AGANO image collection",
+      "verbatim_title": "Sherwood Block- Gold mine."
+    },
+    {
+      "slug": "silobela",
+      "name": "Pagamesa Antimony Mine",
+      "short": "Pagamesa",
+      "commodity": "Antimony",
+      "location": "Silobela–Gothic antimony belt, Zimbabwe",
+      "query": "Pagamesa Antimony Mine, Gothic, Silobela, Zimbabwe",
+      "summary": "The “Stronghold” asset connects the historic Fortuna, Pagamesa and Gothic reefs across three operating shafts.",
+      "intro": "This mine is named after the historic rich antimony belt of Silobela, Gothic. However, this, what we like to call it, stronghold asset houses prestigious historic reefs of Fortuna, Pagamesa and Gothic. The mine produces grades of up to 28% Stibnite. Situated on the Gothic, because it is situated on the Pagamesa and Fortuna belts, this mine houses three shafts in operation earning it its name, Strong-hold.",
+      "paragraphs": [],
+      "facts": [
+        [
+          "Principal mineral",
+          "Antimony"
+        ],
+        [
+          "Historic reef network",
+          "Fortuna · Pagamesa · Gothic"
+        ],
+        [
+          "Operating shafts",
+          "3"
+        ],
+        [
+          "Reported stibnite content",
+          "Up to 28%"
+        ]
+      ],
+      "image": "headgear-development",
+      "caption": "Mine development · AGANO image collection",
+      "verbatim_title": "Pagamesa- Antimony Mine"
+    }
+  ],
+  "facility": {
+    "name": "Sebakwe Antimony Processing Plant",
+    "location": "Sebakwe, Kwekwe, Zimbabwe",
+    "designed_output": "Antimony concentrate",
+    "stated_feed_sources": [
+      "Pagamesa",
+      "Anzac",
+      "LonRho"
+    ],
+    "company_described_sequence": [
+      "Gravity concentration",
+      "Alkaline leaching",
+      "Electrowinning",
+      "Smelting"
+    ],
+    "capacity": null,
+    "recovery_percentage": null,
+    "verbatim_description": "Located in Sebakwe, Kwekwe, our facility is designed to produce antimony concentrate. We source our feed ore from Pagamesa, Anzac & LonRho reefs. The processing streamline includes gravity concentration- Alkaline Leach- electro-winning- Smelting."
+  },
+  "editorial_decisions": [
+    "The latest explicit instruction preserves supplied passages verbatim, including their original spelling, units, grammar and geographic references. This supersedes earlier prose normalisation; see verbatim-content.json.",
+    "The four latest detailed mine descriptions replace the earlier broad portfolio labels. Pagamesa is displayed fourth, following the user correction.",
+    "Existing profile URLs and enquiry slugs are preserved; current public names are LonRho, Anzac, Sherwood Block and Pagamesa.",
+    "The ambiguous Anzac phrase \"shaft at 25%\" is omitted from public copy. It was not silently changed into a 25 m shaft depth.",
+    "LonRho grade figures are labelled as company-reported operational information. Pagamesa 28% is preserved as stibnite content and not converted to elemental Sb grade.",
+    "Anzac 60 m is described as a development target, not a confirmed intersection.",
+    "The plant sequence is company-described; no numerical capacity, recovery, purity or current commissioning status is invented.",
+    "The statement about refining systems to the highest international standards is presented as an ambition, without adding a certification or compliance achievement.",
+    "No Saturday hours were supplied; the day is not labelled closed.",
+    "Exact visitor pins remain unverified despite the new general location descriptions."
+  ],
+  "whatsapp_account_registration_verified": false,
+  "publication_limits": "No mineral resource/reserve estimates, grades beyond the supplied figures, audited headcounts, executive identities, certifications, assay evidence or exact sensitive coordinates were invented.",
+  "verbatim_prose_source": "verbatim-content.json",
+  "corporate_overview": "AGANO Legacy Resources is a premier, independent Zimbabwean mining house specializing in the extraction and processing of high-grade gold and antimony assets. Driven by an elite team of 300 skilled mining and metallurgical professionals, our enterprise operates a highly resilient physical asset network across the historic Silobela-Gothic, Pagemesa and Fortuna complex, Sebakwe- Anzac bloc, and Globe&Phoenix LonRho reef, and the Great Dyke Sherwood mine. We manage the entire mineral value chain internally—from deep-level extraction to advanced processing—delivering premium, market-ready products to the global industrial market.",
+  "story": "Our story is rooted in the rich earth of Zimbabwe’s historic gold and antimony belts. From the foundations of RIFA to the vision of AGANO Legacy Resources, our journey brings together respect for heritage, faith in Zimbabwean capability, and a commitment to building an enterprise that will endure across generations. That journey has demanded resilience. Taking responsibility for operations facing significant challenges brought a clear purpose: restore discipline, rebuild trust, and create a sustainable foundation for growth. We believe that mineral wealth carries a duty of stewardship. Every resource entrusted to us brings responsibilities—to the land, to the people who work it, and to the communities whose futures are connected to it. Our approach centres on strengthening operational governance, pursuing statutory compliance, improving environmental safeguards, and building fair and sustainable livelihoods for our mining teams. For us, legacy is measured in productive operations, trusted partnerships, dignified livelihoods and opportunities preserved for those who come after us. Our ambition is to contribute to Zimbabwe’s industrial capability while building wealth with purpose and passing on the principles that give it meaning.",
+  "minerals_narrative": [
+    "Unlike traditional mining operations that discover companion minerals while chasing gold, our journey began with a definitive focus on antimony. It was through our dedicated work in mastering this critical, high-demand industrial metalloid that we subsequently uncovered our high-grade gold reef structures. This unique operational sequence has shaped our identity and gave us a deep, specialized expertise in complex base-metal processing.",
+    "Today, our primary corporate focus is on perfecting our craft in antimony processing. We are systematically investing in advanced differential technologies, optimizing our plant throughput, and scaling our extraction frameworks across the Sherwood Mine and associated reef networks. By refining our metallurgical recovery systems to the highest international standards, our clear ambition is to establish the enterprise as a top producer and processor of high-grade antimony in Zimbabwe, delivering an uncompromised, compliant, and strategic supply chain to the global industrial market."
+  ]
+}

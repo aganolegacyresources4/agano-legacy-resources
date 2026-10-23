@@ -1,0 +1,32 @@
+{
+  "project": "AGANO Legacy Resources",
+  "release": "20261023-domain",
+  "date": "2026-10-23",
+  "runtime": [
+    "HTML5",
+    "CSS3",
+    "Vanilla JavaScript"
+  ],
+  "html_pages": 32,
+  "public_files": 98,
+  "automated_tests_passed": 112,
+  "local_file_fragment_references": 2255,
+  "browser_layout_checks": 512,
+  "browser": "Chrome 155 on Linux, DPR 1, iframe viewport layout checks",
+  "verbatim_source": "docs/verbatim-content.json",
+  "copy_policy": "Supplied passages and headings preserved without rewriting. Only HTML escaping and paragraph whitespace differ.",
+  "deployment_performed": false,
+  "browser_limitations": [
+    "Safari/Firefox/Edge not run",
+    "Physical iPhones/Android and software keyboards not tested",
+    "Synthetic safe-area spacing is not device emulation"
+  ],
+  "integrations": "WhatsApp reviewed-message handoff; no automatic send/backend. Google location searches; exact pins/optional embeds unconfigured.",
+  "package_files": 138,
+  "previous_release": "20261022-verbatim",
+  "production_origin": "https://www.aganolegacyresources.co.zw",
+  "browser_checks_release": "20261022-verbatim",
+  "domain_dns_tls_verified": false,
+  "origin_references_replaced": 233,
+  "distinct_structured_data_hashes_updated": 4
+}

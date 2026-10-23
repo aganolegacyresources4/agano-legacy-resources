@@ -1,0 +1,10 @@
+node_modules/
+.sites-runtime/
+.wrangler/
+artifacts/
+.DS_Store
+*.log
+.env*
+
+dist/__qa/
+__qa/

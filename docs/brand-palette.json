@@ -1,0 +1,43 @@
+{
+  "source": "IMG-20261022-WA0000.jpg",
+  "method": "Representative median RGB from the inner labelled swatches; metallic gradients have multiple colours.",
+  "colours": [
+    {
+      "name": "Ivory",
+      "hex": "#FAF7F0",
+      "rgb": [
+        250,
+        247,
+        240
+      ]
+    },
+    {
+      "name": "Charcoal",
+      "hex": "#33383B",
+      "rgb": [
+        51,
+        56,
+        59
+      ]
+    },
+    {
+      "name": "Gold",
+      "hex": "#D1B485",
+      "rgb": [
+        209,
+        180,
+        133
+      ]
+    },
+    {
+      "name": "Steel blue",
+      "hex": "#809AA8",
+      "rgb": [
+        128,
+        154,
+        168
+      ]
+    }
+  ],
+  "usage": "Use darker supporting text/border/focus tokens where needed; the base steel-blue/charcoal pairing is below 4.5:1 for normal text."
+}

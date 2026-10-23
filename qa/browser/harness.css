@@ -1,0 +1,2 @@
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui;background:#eee;color:#222}header{position:relative;background:#fff;padding:16px;border-bottom:1px solid #aaa}h1{font-size:20px;margin:0 0 8px}select,button{font:inherit;min-height:44px;margin:4px 14px 4px 4px}#frames{display:grid;gap:24px;padding:20px;overflow:auto}section{width:max-content}h2{font-size:16px}iframe{display:block;border:1px solid #aaa;background:#fff}pre{font-size:13px;max-width:1280px;white-space:pre-wrap;overflow-wrap:anywhere}
+#summary{font-size:12px;max-width:1240px;overflow-wrap:anywhere}

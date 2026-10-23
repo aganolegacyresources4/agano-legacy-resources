@@ -1,0 +1,231 @@
+{
+  "release": "20261022-verbatim",
+  "date": "2026-10-22",
+  "browser": "Chrome 155.0.0.0 on Linux",
+  "device_pixel_ratio": 1,
+  "method": "Supported cloud-browser UI; real page rendering in same-origin iframe viewports. Not physical-device emulation or cross-browser testing.",
+  "viewport_widths": [
+    320,
+    375,
+    390,
+    393,
+    402,
+    414,
+    430,
+    440,
+    480,
+    768,
+    1024,
+    1100,
+    1101,
+    1280,
+    1440,
+    1920
+  ],
+  "standard_frame_heights": "720 px for widths up to 768; 900 px for larger widths. Widths refer to window.innerWidth; vertical scrollbars reduce document.clientWidth.",
+  "page_results": [
+    {
+      "page": "404.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "about.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "accessibility.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "careers.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "community.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "contact.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "environment.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "equipment-technology.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "exploration-development.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "gallery.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "health-safety.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "index.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "leadership.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "minerals.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "news.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "news/a-clearer-first-business-conversation.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "news/from-geological-information-to-decisions.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "news/responsible-resource-development.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "operations.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "privacy.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "processing.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "procurement.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "projects.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "reports.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "services.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "sites/globe-and-phoenix.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "sites/sebakwe.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "sites/sherwood.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "sites/silobela.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "sustainability.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "terms.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    },
+    {
+      "page": "vision-mission-values.html",
+      "layout_overflow_checks_passed": 16,
+      "mobile_menu_open_close": "passed"
+    }
+  ],
+  "viewport_checks": 512,
+  "additional_observations": {
+    "twenty_additional_portrait_menu_cycles": "passed; final expanded state false",
+    "portrait_safe_area": "synthetic top 47 / right 0 / bottom 34 / left 0 px; header 144.25 px; menu panel bottom about 681.4 px in a 720 px frame; no document overflow",
+    "portrait_arrow_down_and_nested_escape": "passed; Company overview focused, then summary and Menu focus restored",
+    "landscape_safe_area": "synthetic top 0 / right 59 / bottom 21 / left 59 px; 874 by 320 frame; header gutters 59 px; no document overflow",
+    "landscape_last_menu_link_and_tab_exit": "Contact AGANO reachable inside scrolling panel; next Tab exited and closed menu",
+    "landscape_gallery": "first image loaded; Next changed to image 2 of 8; close button dismissed and restored thumbnail focus; bounds respected synthetic insets within subpixel tolerance",
+    "mobile_review_text": "computed 16 px at 430 px width",
+    "corporate_whatsapp_preview": "synthetic .test data produced a reviewed https://wa.me/263780948702 link; no external handoff or message sent",
+    "edited_preview": "old review hidden and old WhatsApp URL removed",
+    "verbatim_homepage": "all 16 marked supplied text/heading blocks present in the rendered homepage; source comparisons passed"
+  },
+  "limitations": [
+    "Chrome desktop engine and DPR 1 only",
+    "No actual Android/iOS touch hardware or software keyboard",
+    "No NVDA, VoiceOver or TalkBack",
+    "No Edge, Firefox or Safari run",
+    "No measured 200%/400% browser zoom or forced-colours UI",
+    "No browser-level JavaScript-disabled or print run",
+    "No Lighthouse or field LCP/INP/CLS",
+    "No throttled cold/warm network benchmark",
+    "No live Google exact-pin verification or WhatsApp delivery",
+    "No production HTTPS, CSP or 404 response checks"
+  ],
+  "environment_note": "Browser-extension metadata errors were observed separately from the application; no blanket clean-console claim is made.",
+  "previous_release_observations": {
+    "release": "20261022-ux",
+    "additional_observations": {
+      "twenty_menu_cycles": "passed",
+      "enter_space_activation": "passed",
+      "arrow_down_and_nested_escape": "passed",
+      "short_landscape_768_by_320_last_link_and_tab_exit": "passed",
+      "resize_320_1101_320_focus_recovery": "passed after waiting for media-query change events",
+      "gallery_load_next_escape_focus_return": "passed",
+      "project_filter_and_reset": "passed",
+      "contact_blank_validation": "passed",
+      "three_exact_whatsapp_previews": "passed; https://wa.me/263780948702; no message sent",
+      "edited_contact_preview_invalidates_handoff": "passed",
+      "initial_character_counter": "0 / 1,000 after fixing empty textarea whitespace"
+    }
+  },
+  "safe_area_method": "CSS custom-property inset overrides selected through the local QA UI. These are synthetic spacing checks, not iPhone/Safari emulation."
+}

@@ -1,0 +1,16 @@
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-bhXxdaATtrfcTc2WA+QPzUl7z/A02B3oxsxo7z7B7Ew=' 'sha256-jFQ8QmeWMSaObGDZCtKj7YabdLW11mCSvBsvOjunhsw=' 'sha256-QHFCfedbxcFisM+WCCcjfVDBHO2J9ZDwSrGqh5qe3c4=' 'sha256-bFR6Yh7hTBzcyWaxOzPmQT074gzJ3VjCfo9Z7hxARU8='; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; frame-src https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'self'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+/assets/*
+  Cache-Control: public, max-age=3600
+
+/assets/js/*
+  Cache-Control: no-cache
+/assets/css/*
+  Cache-Control: no-cache
+/*.html
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache

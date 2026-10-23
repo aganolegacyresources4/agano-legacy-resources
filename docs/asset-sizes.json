@@ -1,0 +1,1969 @@
+{
+  "release": "20261023-domain",
+  "date": "2026-10-22",
+  "measurement": "Local bytes and sum of per-file gzip level 9 sizes. These are not measured network transfers, Lighthouse results or Core Web Vitals.",
+  "html_pages": 32,
+  "public_files": 98,
+  "css": {
+    "assets/css/effects.css": {
+      "raw_bytes": 14432,
+      "gzip_bytes": 3792
+    },
+    "assets/css/main.css": {
+      "raw_bytes": 34887,
+      "gzip_bytes": 7774
+    },
+    "assets/css/maps.css": {
+      "raw_bytes": 3781,
+      "gzip_bytes": 1255
+    }
+  },
+  "js": {
+    "assets/js/contact.js": {
+      "raw_bytes": 2403,
+      "gzip_bytes": 956
+    },
+    "assets/js/effects.js": {
+      "raw_bytes": 7820,
+      "gzip_bytes": 2287
+    },
+    "assets/js/filters.js": {
+      "raw_bytes": 1740,
+      "gzip_bytes": 685
+    },
+    "assets/js/forms.js": {
+      "raw_bytes": 15716,
+      "gzip_bytes": 4775
+    },
+    "assets/js/gallery.js": {
+      "raw_bytes": 5175,
+      "gzip_bytes": 1530
+    },
+    "assets/js/main.js": {
+      "raw_bytes": 455,
+      "gzip_bytes": 311
+    },
+    "assets/js/maps-config.js": {
+      "raw_bytes": 2418,
+      "gzip_bytes": 558
+    },
+    "assets/js/maps.js": {
+      "raw_bytes": 8430,
+      "gzip_bytes": 2644
+    },
+    "assets/js/navigation.js": {
+      "raw_bytes": 4680,
+      "gzip_bytes": 1444
+    },
+    "assets/js/site-config.js": {
+      "raw_bytes": 801,
+      "gzip_bytes": 512
+    }
+  },
+  "gallery_default_thumbnail_bytes": 329548,
+  "gallery_640_thumbnail_bytes": 511302,
+  "gallery_thumbnail_budget_exceptions": [
+    {
+      "file": "assets/images/company/mineral-samples-thumb-640.webp",
+      "bytes": 101614,
+      "reason": "Larger optional 640px derivative preserves detailed texture. Every default 480px thumbnail stays under 80 KiB."
+    },
+    {
+      "file": "assets/images/company/surface-excavation-thumb-640.webp",
+      "bytes": 92808,
+      "reason": "Larger optional 640px derivative preserves detailed texture. Every default 480px thumbnail stays under 80 KiB."
+    }
+  ],
+  "hero_variants": [
+    {
+      "file": "assets/images/company/mine-at-sunset-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 84474,
+      "role": "content-small",
+      "quality": 74,
+      "sha256": "6bddf3e84d58b2a55ed5b4e84597c4669a13fb5e4a0cf7e25e6db64f8546a1f7"
+    },
+    {
+      "file": "assets/images/company/mine-at-sunset-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 177196,
+      "role": "content-medium",
+      "quality": 76,
+      "sha256": "9af15e574b345cd875dc482715347095fcdf202f304708b8e3de96b6bc040eca"
+    },
+    {
+      "file": "assets/images/company/mine-at-sunset-1536.webp",
+      "width": 1536,
+      "height": 1152,
+      "bytes": 368410,
+      "role": "content-large",
+      "quality": 78,
+      "sha256": "ac59678d6c2d481696a9e8b6d0ba631ef1177251508d94250cfc32839e50c5ee"
+    }
+  ],
+  "pages": {
+    "404.html": {
+      "html": {
+        "raw_bytes": 12767,
+        "gzip_bytes": 2782
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "about.html": {
+      "html": {
+        "raw_bytes": 20553,
+        "gzip_bytes": 4839
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "accessibility.html": {
+      "html": {
+        "raw_bytes": 14791,
+        "gzip_bytes": 3585
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "careers.html": {
+      "html": {
+        "raw_bytes": 23967,
+        "gzip_bytes": 5309
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/forms.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 81194,
+      "css_js_gzip_bytes": 21851
+    },
+    "community.html": {
+      "html": {
+        "raw_bytes": 15601,
+        "gzip_bytes": 3467
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "contact.html": {
+      "html": {
+        "raw_bytes": 31389,
+        "gzip_bytes": 6537
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/css/maps.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/forms.js",
+        "assets/js/maps-config.js",
+        "assets/js/maps.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 95823,
+      "css_js_gzip_bytes": 26308
+    },
+    "environment.html": {
+      "html": {
+        "raw_bytes": 15574,
+        "gzip_bytes": 3441
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "equipment-technology.html": {
+      "html": {
+        "raw_bytes": 17371,
+        "gzip_bytes": 3888
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "exploration-development.html": {
+      "html": {
+        "raw_bytes": 18453,
+        "gzip_bytes": 4022
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "gallery.html": {
+      "html": {
+        "raw_bytes": 24314,
+        "gzip_bytes": 4513
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/gallery.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 70653,
+      "css_js_gzip_bytes": 18606
+    },
+    "health-safety.html": {
+      "html": {
+        "raw_bytes": 15466,
+        "gzip_bytes": 3449
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "index.html": {
+      "html": {
+        "raw_bytes": 28589,
+        "gzip_bytes": 6343
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "leadership.html": {
+      "html": {
+        "raw_bytes": 17058,
+        "gzip_bytes": 3846
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "minerals.html": {
+      "html": {
+        "raw_bytes": 20195,
+        "gzip_bytes": 4672
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "news/a-clearer-first-business-conversation.html": {
+      "html": {
+        "raw_bytes": 17791,
+        "gzip_bytes": 3999
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "news/from-geological-information-to-decisions.html": {
+      "html": {
+        "raw_bytes": 17991,
+        "gzip_bytes": 4049
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "news/responsible-resource-development.html": {
+      "html": {
+        "raw_bytes": 18043,
+        "gzip_bytes": 4063
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "news.html": {
+      "html": {
+        "raw_bytes": 18651,
+        "gzip_bytes": 3850
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/filters.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 67218,
+      "css_js_gzip_bytes": 17761
+    },
+    "operations.html": {
+      "html": {
+        "raw_bytes": 21683,
+        "gzip_bytes": 4584
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "privacy.html": {
+      "html": {
+        "raw_bytes": 17071,
+        "gzip_bytes": 4325
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "processing.html": {
+      "html": {
+        "raw_bytes": 23525,
+        "gzip_bytes": 5094
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/css/maps.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/maps-config.js",
+        "assets/js/maps.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 80107,
+      "css_js_gzip_bytes": 21533
+    },
+    "procurement.html": {
+      "html": {
+        "raw_bytes": 24371,
+        "gzip_bytes": 5231
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/forms.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 81194,
+      "css_js_gzip_bytes": 21851
+    },
+    "projects.html": {
+      "html": {
+        "raw_bytes": 20763,
+        "gzip_bytes": 4357
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/filters.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 67218,
+      "css_js_gzip_bytes": 17761
+    },
+    "reports.html": {
+      "html": {
+        "raw_bytes": 16722,
+        "gzip_bytes": 3639
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "services.html": {
+      "html": {
+        "raw_bytes": 15830,
+        "gzip_bytes": 3573
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "sites/globe-and-phoenix.html": {
+      "html": {
+        "raw_bytes": 23081,
+        "gzip_bytes": 5079
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/css/maps.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/maps-config.js",
+        "assets/js/maps.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 80107,
+      "css_js_gzip_bytes": 21533
+    },
+    "sites/sebakwe.html": {
+      "html": {
+        "raw_bytes": 23150,
+        "gzip_bytes": 5133
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/css/maps.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/maps-config.js",
+        "assets/js/maps.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 80107,
+      "css_js_gzip_bytes": 21533
+    },
+    "sites/sherwood.html": {
+      "html": {
+        "raw_bytes": 22480,
+        "gzip_bytes": 5035
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/css/maps.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/maps-config.js",
+        "assets/js/maps.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 80107,
+      "css_js_gzip_bytes": 21533
+    },
+    "sites/silobela.html": {
+      "html": {
+        "raw_bytes": 23147,
+        "gzip_bytes": 5142
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/css/maps.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/maps-config.js",
+        "assets/js/maps.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 80107,
+      "css_js_gzip_bytes": 21533
+    },
+    "sustainability.html": {
+      "html": {
+        "raw_bytes": 17156,
+        "gzip_bytes": 3932
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "terms.html": {
+      "html": {
+        "raw_bytes": 15102,
+        "gzip_bytes": 3643
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    },
+    "vision-mission-values.html": {
+      "html": {
+        "raw_bytes": 16360,
+        "gzip_bytes": 3643
+      },
+      "css_js_files": [
+        "assets/css/main.css",
+        "assets/css/effects.css",
+        "assets/js/site-config.js",
+        "assets/js/navigation.js",
+        "assets/js/contact.js",
+        "assets/js/effects.js",
+        "assets/js/main.js"
+      ],
+      "css_js_raw_bytes": 65478,
+      "css_js_gzip_bytes": 17076
+    }
+  },
+  "baseline_release": "20261022-content",
+  "before_after": {
+    "404.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 14479,
+          "gzip_bytes": 3078
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 12767,
+          "gzip_bytes": 2782
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "about.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 21956,
+          "gzip_bytes": 4952
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 20553,
+          "gzip_bytes": 4839
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "accessibility.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 16503,
+          "gzip_bytes": 3880
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 14791,
+          "gzip_bytes": 3585
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "careers.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 25648,
+          "gzip_bytes": 5551
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 23967,
+          "gzip_bytes": 5309
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/forms.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 81194,
+        "css_js_gzip_bytes": 21851
+      }
+    },
+    "community.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 17313,
+          "gzip_bytes": 3768
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 15601,
+          "gzip_bytes": 3467
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "contact.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 33077,
+          "gzip_bytes": 6781
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 98738,
+        "css_js_gzip_bytes": 27354
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 31389,
+          "gzip_bytes": 6537
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/forms.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 95823,
+        "css_js_gzip_bytes": 26308
+      }
+    },
+    "environment.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 17286,
+          "gzip_bytes": 3744
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 15574,
+          "gzip_bytes": 3441
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "equipment-technology.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 19095,
+          "gzip_bytes": 4169
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 17371,
+          "gzip_bytes": 3888
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "exploration-development.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 20166,
+          "gzip_bytes": 4302
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 18453,
+          "gzip_bytes": 4022
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "gallery.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 21966,
+          "gzip_bytes": 4312
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 24314,
+          "gzip_bytes": 4513
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/gallery.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 70653,
+        "css_js_gzip_bytes": 18606
+      }
+    },
+    "health-safety.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 17178,
+          "gzip_bytes": 3752
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 15466,
+          "gzip_bytes": 3449
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "index.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 32195,
+          "gzip_bytes": 6076
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 28589,
+          "gzip_bytes": 6343
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "leadership.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 18771,
+          "gzip_bytes": 4124
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 17058,
+          "gzip_bytes": 3846
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "minerals.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 21232,
+          "gzip_bytes": 4702
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 20195,
+          "gzip_bytes": 4672
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "news/a-clearer-first-business-conversation.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 19563,
+          "gzip_bytes": 4294
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 17791,
+          "gzip_bytes": 3999
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "news/from-geological-information-to-decisions.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 19763,
+          "gzip_bytes": 4344
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 17991,
+          "gzip_bytes": 4049
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "news/responsible-resource-development.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 19815,
+          "gzip_bytes": 4362
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 18043,
+          "gzip_bytes": 4063
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "news.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 20288,
+          "gzip_bytes": 4134
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 18651,
+          "gzip_bytes": 3850
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/filters.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 67218,
+        "css_js_gzip_bytes": 17761
+      }
+    },
+    "operations.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 23182,
+          "gzip_bytes": 4687
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 21683,
+          "gzip_bytes": 4584
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "privacy.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 18783,
+          "gzip_bytes": 4585
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 17071,
+          "gzip_bytes": 4325
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "processing.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 25356,
+          "gzip_bytes": 5359
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 98738,
+        "css_js_gzip_bytes": 27354
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 23525,
+          "gzip_bytes": 5094
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 80107,
+        "css_js_gzip_bytes": 21533
+      }
+    },
+    "procurement.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 26052,
+          "gzip_bytes": 5476
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 24371,
+          "gzip_bytes": 5231
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/forms.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 81194,
+        "css_js_gzip_bytes": 21851
+      }
+    },
+    "projects.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 22401,
+          "gzip_bytes": 4623
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 20763,
+          "gzip_bytes": 4357
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/filters.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 67218,
+        "css_js_gzip_bytes": 17761
+      }
+    },
+    "reports.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 18434,
+          "gzip_bytes": 3936
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 16722,
+          "gzip_bytes": 3639
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "services.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 17542,
+          "gzip_bytes": 3879
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 15830,
+          "gzip_bytes": 3573
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "sites/globe-and-phoenix.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 25080,
+          "gzip_bytes": 5393
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 98738,
+        "css_js_gzip_bytes": 27354
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 23081,
+          "gzip_bytes": 5079
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 80107,
+        "css_js_gzip_bytes": 21533
+      }
+    },
+    "sites/sebakwe.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 24885,
+          "gzip_bytes": 5363
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 98738,
+        "css_js_gzip_bytes": 27354
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 23150,
+          "gzip_bytes": 5133
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 80107,
+        "css_js_gzip_bytes": 21533
+      }
+    },
+    "sites/sherwood.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 24264,
+          "gzip_bytes": 5243
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 98738,
+        "css_js_gzip_bytes": 27354
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 22480,
+          "gzip_bytes": 5035
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 80107,
+        "css_js_gzip_bytes": 21533
+      }
+    },
+    "sites/silobela.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 24916,
+          "gzip_bytes": 5347
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 98738,
+        "css_js_gzip_bytes": 27354
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 23147,
+          "gzip_bytes": 5142
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/css/maps.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/maps-config.js",
+          "assets/js/maps.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 80107,
+        "css_js_gzip_bytes": 21533
+      }
+    },
+    "sustainability.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 18869,
+          "gzip_bytes": 4214
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 17156,
+          "gzip_bytes": 3932
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "terms.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 16814,
+          "gzip_bytes": 3943
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 15102,
+          "gzip_bytes": 3643
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    },
+    "vision-mission-values.html": {
+      "before": {
+        "html": {
+          "raw_bytes": 18072,
+          "gzip_bytes": 3942
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/filters.js",
+          "assets/js/gallery.js",
+          "assets/js/forms.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 84109,
+        "css_js_gzip_bytes": 22897
+      },
+      "after": {
+        "html": {
+          "raw_bytes": 16360,
+          "gzip_bytes": 3643
+        },
+        "css_js_files": [
+          "assets/css/main.css",
+          "assets/css/effects.css",
+          "assets/js/site-config.js",
+          "assets/js/navigation.js",
+          "assets/js/contact.js",
+          "assets/js/effects.js",
+          "assets/js/main.js"
+        ],
+        "css_js_raw_bytes": 65478,
+        "css_js_gzip_bytes": 17076
+      }
+    }
+  }
+}

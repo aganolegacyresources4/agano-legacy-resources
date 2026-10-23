@@ -1,0 +1,27 @@
+{
+  "company": "AGANO Legacy Resources",
+  "date": "2026-10-22",
+  "source_filename": "IMG-20261022-WA0001.jpg",
+  "source_sha256": "0181046b78f9947f3e7f64c31dc3fe408b1d0ac1c820434f57d38fca7da724bc",
+  "asset": "assets/images/brand/agano-logo-enhanced-v1.png",
+  "asset_sha256": "e07abd96ac61b5c4b2dafddd8356413c3972d2adca9268e44a3de8145001ee8f",
+  "dimensions_px": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "alpha_transparency": true,
+  "method": "Built-in imagegen editing",
+  "purpose": "Website header/footer branding, with a preserved enhanced raster master and favicon derivatives",
+  "notes": "Raster enhancement, not a vector master. The source reference, 1536 x 1024 alpha PNG and responsive derivatives are included.",
+  "original_asset": "assets/images/brand/agano-logo-original.jpg",
+  "web_variants": [
+    "assets/images/brand/agano-logo-160.webp",
+    "assets/images/brand/agano-logo-320.webp"
+  ],
+  "browser_icons": [
+    "favicon.png",
+    "favicon.ico"
+  ],
+  "website_integration": "Header and footer on all 32 HTML pages; Organisation logo metadata updated."
+}

@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-10-19T13:04:32.548Z",
+  "generator": "Built-in imagegen tool",
+  "provenance": "AI-generated illustrative imagery. These images depict generic scenes and are not photographs of AGANO Legacy Resources properties, personnel, operations or environmental programmes.",
+  "disclosureRequired": true,
+  "use": "Contextual visuals for website design review. Display a visible illustration disclosure wherever these visuals could be understood as company assets.",
+  "sourceNote": "The supplied WebP files are optimised generated illustrations. No image depicts a verified AGANO property or programme.",
+  "assets": [
+    {
+      "id": "hero",
+      "classification": "AI-generated illustrative imagery",
+      "isVerifiedAganoAsset": false,
+      "sourceDimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "prompt": "Use case: photorealistic-natural.\nAsset type: premium mining company website hero background, landscape 16:9, ideally 2048 x 1152.\nPrimary request: A polished editorial aerial photograph-style illustration of a non-specific Southern African open-pit mine at warm dawn. Broad dark rock terraces form elegant concentric curves descending into a deep working pit. Quiet industrial scale, restrained mining gold light at the upper right horizon, charcoal rock, muted earth browns and navy-blue shadows. No identifiable real mine or company.\nComposition: wide elevated drone perspective, strong depth, dark quiet left third and lower third appropriate for white website text overlay; terraced mine dominates center and right. Subtle dry grass and distant low hills at the horizon. Realistic textures and geological contours, premium international corporate editorial aesthetic.\nLighting: low golden morning light, soft atmospheric haze, dramatic but plausible.\nConstraints: No text, no logos, no signs, no watermarks, no identifying geography, no identifiable people, no specific branded machinery, no exaggerated unsafe industrial activity. This will be explicitly described outside the image as AI-generated illustrative imagery, never as a photograph of AGANO assets.",
+      "alt": "AI-generated illustration of terraced open-pit mining at dawn.",
+      "variants": [
+        {
+          "file": "hero-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 258854,
+          "quality": 80,
+          "sha256": "2ddb1e8cf66bc090482d45434e2dd9cd30315f5ce6c01383c0ed3f4893c03386"
+        },
+        {
+          "file": "hero-960.webp",
+          "width": 960,
+          "height": 540,
+          "format": "webp",
+          "bytes": 96958,
+          "quality": 80,
+          "sha256": "e565822ba4ea834b5f5adac41f72d4bab30f9e28a2e3e395d972e4033729351f"
+        }
+      ]
+    },
+    {
+      "id": "geology",
+      "classification": "AI-generated illustrative imagery",
+      "isVerifiedAganoAsset": false,
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "prompt": "Use case: photorealistic-natural.\nAsset type: premium corporate mining website editorial photograph-style illustration, wide landscape 3:2.\nPrimary request: Close editorial view of a geological rock core sample laid neatly in a weathered neutral sample tray, with one clean protective work glove resting nearby, a geological hand lens and a simple metal sampling ruler. No readable text or numerals. The rocks are dark charcoal and slate grey with subtle quartz mineral veins and tactile natural fracture textures. Non-specific Southern African exploration context, no identifiable location or person.\nComposition: premium documentary still life at field desk height with geological core and hand lens in sharp foreground, gently defocused warm dry field landscape beyond. No identifiable person; the glove is an object with no hand inside. Understated professional mining exploration mood.\nLighting: soft late afternoon natural light, warm highlights, muted navy and brown palette, crisp textural detail.\nConstraints: No text, logos, labels, watermarks, faces, resource grades, precious metal claims, identifying geography, unsafe actions or decorative gold nuggets. This will be explicitly labelled as AI-generated illustrative imagery, never AGANO property.",
+      "alt": "AI-generated illustration of geological core samples and field tools.",
+      "variants": [
+        {
+          "file": "geology-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "format": "webp",
+          "bytes": 122062,
+          "quality": 80,
+          "sha256": "a8891a1788a210a7c892de39a2d76a409b3f2506580c9ece2e84d0cb2eaeca48"
+        }
+      ]
+    },
+    {
+      "id": "landscape",
+      "classification": "AI-generated illustrative imagery",
+      "isVerifiedAganoAsset": false,
+      "sourceDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "prompt": "Use case: photorealistic-natural.\nAsset type: premium corporate mining website sustainability editorial image, wide landscape 3:2.\nPrimary request: A beautiful, credible non-specific Southern African grassland landscape with a small calm watercourse, gently rolling dry-season ochre hills and healthy native grasses, scattered indigenous trees and green wetland reeds. In the middle distance, subtle areas of newly established grass cover suggest land restoration without showing an identifiable mining asset. No buildings or people. Observational editorial photograph-style illustration with natural regional ecology.\nComposition: wide grounded viewpoint, flowing water as a quiet diagonal in the foreground, grassland and low hills provide airy depth, calm spacious natural composition suited to a corporate sustainability section.\nLighting: clear morning light with soft shadows, warm grasses and subtle cool green-blue water, realistic rather than oversaturated.\nConstraints: No text, logos, watermarks, faces, identifiable geography or company assets. Do not depict a dam, tailings facility, regulatory certification or factual claims. This will be explicitly labelled as AI-generated illustrative imagery, never an actual AGANO project.",
+      "alt": "AI-generated illustration of Southern African grassland and a watercourse.",
+      "variants": [
+        {
+          "file": "landscape-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "format": "webp",
+          "bytes": 197774,
+          "quality": 70,
+          "sha256": "f676d8ecf63307f28038d77cc38f184750cf769dfcad711f757f435708cf8039"
+        }
+      ]
+    }
+  ]
+}
