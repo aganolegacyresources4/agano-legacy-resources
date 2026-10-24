@@ -25,8 +25,10 @@
     <script src="assets/js/effects.js?v=20261022-verbatim" defer></script>
     <script src="assets/js/main.js?v=20261022-verbatim" defer></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.aganolegacyresources.co.zw/#organization","name":"AGANO Legacy Resources","url":"https://www.aganolegacyresources.co.zw/","logo":"https://www.aganolegacyresources.co.zw/assets/images/brand/agano-logo-320.webp","email":"info@aganolegacyresources.co.zw","telephone":"+263780948702","address":{"@type":"PostalAddress","streetAddress":"Room 10, Tauro Tragus Building","addressLocality":"Kwekwe","addressCountry":"ZW"},"contactPoint":{"@type":"ContactPoint","contactType":"corporate enquiries","telephone":"+263780948702","email":"info@aganolegacyresources.co.zw","hoursAvailable":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Friday"],"opens":"08:00","closes":"16:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday"],"opens":"09:00","closes":"13:00"}]}}</script>
+  <link rel="stylesheet" href="assets/css/homepage.css?v=20261025">
+    <script src="assets/js/homepage-video.js?v=20261025" defer></script>
   </head>
-  <body id="top">
+  <body id="top" class="home-refined">
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="container header-inner">
@@ -137,14 +139,16 @@
           <source media="(max-width:700px)" srcset="assets/images/company/mine-at-sunset-640.webp 640w, assets/images/company/mine-at-sunset-960.webp 960w" sizes="100vw">
           <img src="assets/images/company/mine-at-sunset-1536.webp" srcset="assets/images/company/mine-at-sunset-640.webp 640w, assets/images/company/mine-at-sunset-960.webp 960w, assets/images/company/mine-at-sunset-1536.webp 1536w" sizes="100vw" alt="Material stockpiles and mine headgear beneath a sunset sky." width="1536" height="1152" fetchpriority="high">
         </picture>
+        <canvas id="mine-canvas" role="img" aria-label="AGANO mining footage, shown in full without cropping" hidden></canvas>
+        <video id="mine-video" muted playsinline loop preload="auto" aria-hidden="true" hidden><source src="assets/video/mining-loop.mp4" type="video/mp4"></video>
         <div class="hero-shade">
         </div>
         <div class="container hero-body">
           <p class="eyebrow">Zimbabwean roots. Generational purpose.</p>
-          <h1>Developing mineral resources.<br>
-            <em>Creating sustainable value.</em>
+          <h1>Antimony. Gold.<br>
+            <em>Generational value.</em>
           </h1>
-          <p class="lead">AGANO Legacy Resources is a premier, independent Zimbabwean mining house specializing in the extraction and processing of high-grade gold and antimony assets.</p>
+          <p class="lead">An independent Zimbabwean mining house connecting gold and antimony extraction, mineral processing and responsible stewardship.</p>
           <div class="actions">
             <a class="btn" href="projects.html">Explore our mines <span aria-hidden="true">→</span>
             </a>
@@ -152,7 +156,7 @@
             </a>
           </div>
         </div>
-        <p class="hero-footnote">From the AGANO image collection</p>
+        <div class="hero-toolbar"><span>GOLD &amp; ANTIMONY · ZIMBABWE</span><button id="play-toggle" type="button" hidden>Play video</button></div>
       </section>
       <div class="hero-lanes">
         <div class="container">
@@ -199,13 +203,13 @@
           <div class="section-intro">
             <h2>Our story</h2>
           </div>
-          <div class="story-copy" data-verbatim="story">
+          <details class="home-story"><summary>Read our story</summary><div class="story-copy" data-verbatim="story">
             <p>Our story is rooted in the rich earth of Zimbabwe’s historic gold and antimony belts. From the foundations of RIFA to the vision of AGANO Legacy Resources, our journey brings together respect for heritage, faith in Zimbabwean capability, and a commitment to building an enterprise that will endure across generations.</p>
             <p>That journey has demanded resilience. Taking responsibility for operations facing significant challenges brought a clear purpose: restore discipline, rebuild trust, and create a sustainable foundation for growth.</p>
             <p>We believe that mineral wealth carries a duty of stewardship. Every resource entrusted to us brings responsibilities—to the land, to the people who work it, and to the communities whose futures are connected to it.</p>
             <p>Our approach centres on strengthening operational governance, pursuing statutory compliance, improving environmental safeguards, and building fair and sustainable livelihoods for our mining teams.</p>
             <p>For us, legacy is measured in productive operations, trusted partnerships, dignified livelihoods and opportunities preserved for those who come after us. Our ambition is to contribute to Zimbabwe’s industrial capability while building wealth with purpose and passing on the principles that give it meaning.</p>
-          </div>
+          </div></details>
         </div>
       </section>
       <section class="company-stats" aria-label="AGANO at a glance">

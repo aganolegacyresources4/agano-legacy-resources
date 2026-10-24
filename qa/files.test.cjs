@@ -76,11 +76,12 @@ test('classic scripts load in dependency order and optional features load only w
     if (feature('data-enquiry-form')) names.push('forms');
     if (feature('data-location')) names.push('maps-config', 'maps');
     names.push('effects', 'main');
+    if (page.ids.includes('mine-canvas')) names.push('homepage-video');
     assert.deepEqual(scripts.map(tag => path.basename(tag.attrs.src.split('?')[0], '.js')), names);
     for (const script of scripts) { assert.ok('defer' in script.attrs); assert.notEqual(script.attrs.type, 'module'); }
   }
   const js = files.filter(file => file.endsWith('.js') && file.includes(path.sep + 'assets' + path.sep));
-  assert.equal(js.length, 10);
+  assert.equal(js.length, 11);
   for (const file of js) {
     const text = fs.readFileSync(file, 'utf8'); assert.doesNotThrow(() => new vm.Script(text));
     assert.equal(/\b(?:fetch|eval)\s*\(|\b(?:localStorage|sessionStorage)\b|\.innerHTML\s*=/.test(text), false, file);
