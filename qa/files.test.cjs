@@ -128,7 +128,7 @@ test('sitemap includes 31 content URLs and excludes the error page', () => {
 });
 test('provided contact details are present as static fallbacks on every page', () => {
   for (const page of pages) {
-    assert.ok(page.text.includes('Room 10, Tauro Tragus Building, Kwekwe'), page.file);
+    assert.ok(page.text.includes('1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe'), page.file);
     assert.ok(page.text.includes('tel:+263780948702'), page.file);
     assert.ok(page.text.includes('mailto:info@aganolegacyresources.co.zw'), page.file);
     assert.equal(/aria-current="page"\s+aria-current="page"/.test(page.text), false);

@@ -63,7 +63,7 @@ test('public contact configuration addresses all three forms to the supplied AGA
   const context=load();vm.runInContext(fs.readFileSync(path.join(root,'assets/js/site-config.js'),'utf8'),context);
   const config=context.window.AGANO_CONFIG, api=context.window.AGANO.whatsapp;
   assert.equal(config.email,'info@aganolegacyresources.co.zw');assert.equal(config.telephone,'+263 78 094 8702');
-  assert.equal(config.officeAddress,'Room 10, Tauro Tragus Building, Kwekwe');assert.equal(Object.keys(config.sites).length,4);
+  assert.equal(config.officeAddress,'1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe');assert.equal(Object.keys(config.sites).length,4);
   for(const [kind,category] of [['general','General enquiry'],['supplier','Engineering'],['career','Graduate & internship']]){
     const result=api.prepare({...valid,kind,category},kind,config);
     assert.equal(Object.keys(result.errors).length,0);assert.equal(result.mode,'direct');

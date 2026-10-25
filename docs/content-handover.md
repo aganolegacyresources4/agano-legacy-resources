@@ -38,7 +38,7 @@ The fact record and editorial decisions are in `company-information.json`. Updat
 
 ## Hours and contacts
 
-Room 10, Tauro Tragus Building, Kwekwe, Zimbabwe. Telephone/WhatsApp: +263 78 094 8702. Email: info@aganolegacyresources.co.zw.
+1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe. Telephone/WhatsApp: +263 78 094 8702. Email: info@aganolegacyresources.co.zw.
 
 Office hours use Africa/Harare time, shown as CAT (UTC+2): Monday–Thursday 08:00–18:00; Friday 08:00–16:00; Sunday 09:00–13:00. Saturday was not supplied and is not labelled closed. Maintain the Contact page, footer fallbacks, public configuration and Organisation contact-hours structured data together.
 

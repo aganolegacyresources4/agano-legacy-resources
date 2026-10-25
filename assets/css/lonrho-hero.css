@@ -1,0 +1,26 @@
+.page-hero.lonrho-hero{background:#14191b;color:#faf6ec;min-height:660px;padding:56px 0 80px;display:flex;align-items:center;isolation:isolate;overflow:hidden}
+.lonrho-hero::after{display:none}
+.lonrho-scene{position:absolute;inset:0 0 0 42%;z-index:-2;overflow:hidden}
+.lonrho-scene img{display:block;width:100%;height:100%;object-fit:contain;animation:lonrho-drift 28s ease-in-out infinite alternate;transform-origin:center}
+@keyframes lonrho-drift{from{transform:scale(1)}to{transform:scale(1.045) translateY(-.6%)}}
+.lonrho-hero.motion-paused img{animation-play-state:paused}
+.lonrho-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#14191b 0%,#14191bf5 32%,#14191b66 53%,transparent 75%)}
+.lonrho-hero .container{width:100%}
+.lonrho-hero h1{color:#fff6e5;font-size:clamp(3rem,5.5vw,5.5rem);max-width:12ch;line-height:1.08}
+.lonrho-hero .lead{width:44%;max-width:46ch;color:#e1e2de;line-height:1.8}
+.lonrho-hero .eyebrow{color:#dec28d}
+.lonrho-hero .breadcrumbs,.lonrho-hero .breadcrumbs a{color:#e1e2de}
+.lonrho-motion-control{position:absolute;right:24px;bottom:20px;background:#14191bd9;color:white;border:1px solid #ffffff80;border-radius:4px;padding:10px 16px;cursor:pointer}
+.lonrho-intro-media{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin-bottom:32px}
+.lonrho-inline-video{display:block;width:100%;max-width:640px;height:auto;aspect-ratio:16/9;background:#14191b}
+@media(max-width:1100px){.lonrho-intro-media{grid-template-columns:1fr}}
+@media(max-width:700px){.page-hero.lonrho-hero{min-height:780px;align-items:flex-end;padding:36px 0 80px}.lonrho-scene{inset:0}.lonrho-scene img{object-position:center top}.lonrho-hero::before{background:linear-gradient(0deg,#14191b 0%,#14191be8 25%,#14191b66 58%,transparent 100%)}.lonrho-hero .lead{width:100%}.lonrho-hero h1{font-size:3.2rem}}
+@media(prefers-reduced-motion:reduce){.lonrho-scene img{animation:none}.lonrho-motion-control{display:none}}
+
+/* Restore the landscape video opening. */
+.lonrho-scene{left:36%;display:flex;align-items:center}
+.lonrho-scene video{display:block;width:100%;height:auto;max-height:100%;object-fit:contain}
+.page-hero.lonrho-hero{min-height:520px}
+.lonrho-hero .lead{width:38%}
+.lonrho-video-control{position:absolute;right:24px;bottom:20px;background:#14191bd9;color:white;border:1px solid #ffffff80;border-radius:4px;padding:10px 16px;cursor:pointer}
+@media(max-width:700px){.page-hero.lonrho-hero{min-height:0;padding:calc(56.25vw + 28px) 0 80px}.lonrho-scene{inset:0 0 auto;height:56.25vw}.lonrho-hero .lead{width:100%}.lonrho-hero::before{background:linear-gradient(0deg,#14191b 0%,#14191b 40%,transparent 75%)}}

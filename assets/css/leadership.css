@@ -1,0 +1,28 @@
+.founder-card {
+  width: min(100%, 400px);
+  margin: 0 auto 40px;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.founder-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.founder-details { padding: 24px; }
+.founder-details h3 { margin: 0 0 8px; }
+.founder-details p { margin: 0; }
+@media (max-width: 600px) {
+  .founder-card { max-width: 340px; margin-bottom: 28px; }
+}
+
+.leadership-row-two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; width: calc((100% - 24px) * 2 / 3); margin: 24px auto 0; }
+@media (max-width: 700px) { .leadership-row, .leadership-row-two { grid-template-columns: 1fr; width: 100%; } }
+
+.team-portrait-card { padding: 0; overflow: hidden; }
+.team-portrait-card img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; }
+.team-portrait-details { padding: 24px; }
+.team-portrait-details h3 { margin: 0 0 8px; }
+.team-portrait-details p { margin: 0; }
+.leadership-row-two { align-items: start; }

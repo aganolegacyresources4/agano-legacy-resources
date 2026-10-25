@@ -1,19 +1,14 @@
-/* A pre-edited loop, with the full portrait frame retained at every width. */
+/* A slow, uninterrupted take, with the full portrait frame retained at every width. */
 (function () {
   'use strict';
   var canvas = document.getElementById('mine-canvas');
   var video = document.getElementById('mine-video');
-  var toggle = document.getElementById('play-toggle');
-  if (!canvas || !video || !toggle) return;
+  if (!canvas || !video) return;
   var ctx = canvas.getContext('2d');
   if (!ctx) return;
   var motion = window.matchMedia('(prefers-reduced-motion: reduce)');
   var raf = 0;
   var ready = false;
-  function update() {
-    toggle.textContent = video.paused ? 'Play video' : 'Pause video';
-    toggle.setAttribute('aria-label', video.paused ? 'Play background video' : 'Pause background video');
-  }
   function draw() {
     if (!ready || video.readyState < 2) return;
     var w = canvas.width, h = canvas.height;
@@ -33,16 +28,13 @@
     draw();
   }
   function tick() { raf = 0; draw(); if (!video.paused && !video.ended) raf = requestAnimationFrame(tick); }
-  function play() { video.play().catch(update); }
-  video.addEventListener('loadeddata', function () { ready = true; resize(); toggle.hidden = false; if (!motion.matches) play(); });
-  video.addEventListener('play', function () { update(); if (!raf) raf = requestAnimationFrame(tick); });
-  video.addEventListener('pause', function () { update(); if (raf) cancelAnimationFrame(raf); raf = 0; draw(); });
-  video.addEventListener('error', function () { canvas.hidden = true; toggle.hidden = true; });
-  toggle.addEventListener('click', function () { if (video.paused) play(); else video.pause(); });
-  if (motion.addEventListener) motion.addEventListener('change', function () { if (motion.matches) video.pause(); });
+  video.addEventListener('loadeddata', function () { ready = true; resize(); });
+  video.addEventListener('play', function () { if (!raf) raf = requestAnimationFrame(tick); });
+  video.addEventListener('pause', function () { if (raf) cancelAnimationFrame(raf); raf = 0; draw(); });
+  video.addEventListener('ended', draw);
+  video.addEventListener('error', function () { canvas.hidden = true; });
   if ('ResizeObserver' in window) new ResizeObserver(resize).observe(canvas.parentElement);
   else window.addEventListener('resize', resize);
-  video.muted = true; video.loop = true;
-  if (video.readyState >= 2) { ready = true; resize(); toggle.hidden = false; if (!motion.matches) play(); }
-  update();
+  video.muted = true; video.loop = false;
+  if (video.readyState >= 2) { ready = true; resize(); }
 }());

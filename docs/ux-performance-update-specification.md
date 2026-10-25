@@ -36,7 +36,7 @@ The processing plant is a separate facility, not a fifth mine. Retain existing e
 
 Preserve these supplied contact details:
 
-- Head office: Room 10, Tauro Tragus Building, Kwekwe, Zimbabwe.
+- Head office: 1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe.
 - Telephone and WhatsApp: +263 78 094 8702; WhatsApp destination digits: `263780948702`.
 - Email: `info@aganolegacyresources.co.zw`.
 - Office hours: Monday–Thursday 08:00–18:00; Friday 08:00–16:00; Sunday 09:00–13:00, CAT. Saturday hours were not supplied.

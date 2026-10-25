@@ -1,0 +1,10 @@
+.page-hero.anzac-hero{display:flex;align-items:center;position:relative;isolation:isolate;min-height:680px;background:#20292e;color:#faf6ec;padding:0;overflow:hidden}
+.anzac-hero::after{display:none}
+.anzac-hero-photo{position:absolute;inset:0;z-index:-2}
+.anzac-hero-photo img,.anzac-hero-photo video{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+.anzac-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#20292ef0 0%,#20292e99 30%,#20292e20 60%,transparent 80%)}
+.anzac-hero>.container{width:100%;padding:50px clamp(24px,5vw,80px);margin:0;max-width:none}
+.anzac-hero h1{color:#faf6ec;font-size:clamp(2.6rem,4.5vw,4.8rem);line-height:1.08}
+.anzac-hero .lead{max-width:40ch;width:45%}
+.anzac-hero .lead,.anzac-hero .breadcrumbs,.anzac-hero .breadcrumbs a{color:#e1e4e5}
+@media(max-width:700px){.page-hero.anzac-hero{min-height:680px;align-items:flex-end}.anzac-hero>.container{padding:32px 24px 44px}.anzac-hero h1{font-size:2.6rem}.anzac-hero .lead{width:100%}.anzac-hero::before{background:linear-gradient(0deg,#20292efa 0%,#20292ec9 28%,#20292e00 65%)}}

@@ -123,7 +123,7 @@ test('current search-only cards have no iframe or map controls and retain workin
   assert.equal(e.nodes.frame.children.length, 0); assert.equal(e.nodes.load.hidden, true);
   assert.equal(e.nodes.remove.hidden, true); assert.equal(e.nodes.directions.hidden, true);
   assert.equal(e.nodes.placeholder.hidden, false); assert.equal(e.nodes.label.textContent, 'Site name search');
-  assert.equal(new URL(e.nodes.external.href).searchParams.get('query'), 'Pagamesa Antimony Mine, Gothic, Silobela, Zimbabwe');
+  assert.equal(new URL(e.nodes.external.href).searchParams.get('query'), 'Pagamesa mine, Gothic, Silobela, Zimbabwe');
   assert.equal(e.nodes.external.getAttribute('rel'), 'noopener noreferrer');
   assert.equal(e.nodes.external.getAttribute('referrerpolicy'), 'no-referrer');
 });
@@ -183,8 +183,8 @@ test('six static location cards keep Google searches and contact fallbacks when 
     assert.ok(html.includes(slug === 'head-office' ? 'href="tel:+263780948702"' : slug === 'processing-plant' ? 'contact.html#enquiry' : '../contact.html?site=' + slug + '#enquiry'));
     assert.equal(/<iframe\b|rel="(?:preconnect|dns-prefetch)"|maps\.googleapis\.com\/maps\/api/i.test(html), false);
   }
-  const portfolio = fs.readFileSync(path.join(root, 'projects.html'), 'utf8');
-  for (const slug of slugs.slice(0, 4)) assert.ok(portfolio.includes('sites/' + slug + '.html#location'));
+  const portfolio = fs.readFileSync(path.join(root, 'operations.html'), 'utf8');
+  for (const slug of slugs.slice(0, 4)) assert.ok(portfolio.includes('sites/' + slug + '.html'));
 });
 test('map policy adds only the exact frame origin and preserves other security boundaries', () => {
   const headers = fs.readFileSync(path.join(root, '_headers'), 'utf8');
