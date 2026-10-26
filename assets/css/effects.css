@@ -310,3 +310,50 @@
 }
 
 @media (max-width:1100px) { .site-header .logo-lockup { width: 120px; min-width: 80px; flex: 0 1 120px; } }
+
+/* Integrate the horizontal brand directly into the page. */
+.wordmark.logo-lockup { width:230px; padding:0; background:transparent; border:0; border-radius:0; box-shadow:none; }
+.site-footer .wordmark.logo-lockup { width:250px; max-width:100%; padding:0; background:transparent; border:0; border-radius:0; }
+.site-footer .logo-lockup img { filter:brightness(0) invert(1); }
+@media(max-width:1100px){.site-header .wordmark.logo-lockup{width:180px;flex:0 1 180px;min-width:140px}}
+
+/* Keep the footer signature aligned within the same frame as its logo. */
+.site-footer .footer-intro { min-width:0; }
+.site-footer .footer-intro > p {
+  width:250px;
+  max-width:100%;
+  margin:18px 0 0;
+  text-align:center;
+  line-height:1.6;
+}
+.site-footer .footer-intro > p em { display:inline-block; margin-top:4px; }
+
+/* Preserve the coloured crystal while keeping the footer lettering legible. */
+.site-footer .wordmark.logo-lockup {
+ background-image:url('../images/brand/agano-horizontal-640.webp');
+ background-size:100% auto;
+ background-position:center;
+ background-repeat:no-repeat;
+}
+.site-footer .logo-lockup img { clip-path:inset(0 0 0 25%); }
+
+/* Larger brand signature, with bounded sizing on narrow screens. */
+.site-header .wordmark.logo-lockup { width:310px; flex:0 0 310px; max-width:100%; }
+.site-footer .wordmark.logo-lockup,
+.site-footer .footer-intro > p { width:310px; max-width:100%; }
+@media(max-width:1100px) {
+ .site-header .wordmark.logo-lockup { width:260px; flex:0 0 260px; min-width:0; }
+}
+@media(max-width:480px) {
+ .site-header .wordmark.logo-lockup { width:250px; flex:0 1 250px; }
+ .site-header .header-inner { row-gap:8px; }
+}
+
+/* Give the footer slogan stronger emphasis beneath the brand. */
+.site-footer .footer-intro > p {
+ font-size:clamp(1.05rem, 1.4vw, 1.2rem);
+ font-weight:700;
+ line-height:1.5;
+ color:var(--paper);
+}
+.site-footer .footer-intro > p em { font-weight:700; }

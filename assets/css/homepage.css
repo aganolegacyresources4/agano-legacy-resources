@@ -1,0 +1,41 @@
+/* Homepage-only treatment; shared navigation and supplied copy are retained. */
+.home-refined .hero{min-height:650px;height:calc(100svh - 110px);max-height:850px;background:#182126}
+.home-refined #mine-canvas{position:absolute;inset:0;width:100%;height:100%}
+.home-refined .hero-shade{background:linear-gradient(90deg,#101a20cf,#101a2055 65%,#101a2022),linear-gradient(0deg,#101a20a0,transparent 45%)}
+.home-refined .hero-body{padding-block:70px 135px}
+.home-refined .hero h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.8rem,5.5vw,5rem);font-weight:400;line-height:1.08;letter-spacing:-.035em;max-width:19ch}
+.home-refined .hero h1 em{font-style:italic;color:#e0c28c}
+.home-refined .hero .lead{max-width:48ch;font-size:1rem;line-height:1.85}
+.home-refined .hero .actions{margin-top:32px}
+.home-refined .hero-toolbar{position:absolute;bottom:24px;left:max(var(--space),var(--safe-left));right:max(var(--space),var(--safe-right));display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:18px;border-top:1px solid #ffffff40;font-size:.65rem;letter-spacing:.16em}
+.home-refined #play-toggle{border:1px solid #ffffff80;background:#18212680;color:#f5f1e8;font:inherit;letter-spacing:.08em;padding:12px 18px;min-height:44px;cursor:pointer}
+.home-refined .hero-lanes{background:var(--ivory);color:var(--charcoal)}
+.home-refined .hero-lanes a{color:#33383b;border-color:#c7bba6;padding-block:24px}
+.home-refined .hero-lanes a:hover{background:#eae3d6}
+.home-refined .hero-lanes strong{font-weight:500;font-size:.9rem}
+.home-refined .section h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.025em;line-height:1.15;font-size:clamp(2rem,3.5vw,3.4rem)}
+.home-refined .section{padding-block:80px}
+.home-refined .section .lead{font-size:1rem;line-height:1.95}
+.home-refined .company-photo{border-radius:0;box-shadow:none}
+.home-refined .site-card{border:0;border-top:1px solid #b6a17c;border-radius:0;box-shadow:none;padding:30px 0;background:transparent}
+.home-refined .site-card h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:1.65rem}
+.home-refined .site-grid{column-gap:60px}
+.home-refined .home-story{max-width:900px}
+.home-refined .home-story summary{cursor:pointer;padding:18px 0;border-top:1px solid #c7bba6;border-bottom:1px solid #c7bba6;font-size:1rem}
+.home-refined .home-story[open] .story-copy{padding-top:25px}
+@media(max-width:700px){.home-refined .hero{min-height:720px;height:auto;max-height:none}.home-refined .hero h1{font-size:clamp(2.6rem,9vw,3.5rem)}.home-refined .hero-body{padding-block:65px 145px}.home-refined .hero-toolbar{font-size:.58rem;gap:12px}.home-refined .section{padding-block:55px}.home-refined .hero-lanes a{padding-block:18px}.home-refined .site-grid{gap:25px}.home-refined .hero .lead{font-size:1rem}}
+
+
+.home-refined .mineral-gallery{margin-top:48px}
+.home-refined .mineral-window{overflow:hidden;margin-top:16px;mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent)}
+.home-refined .mineral-track{display:flex;width:max-content;animation:mineral-drift 55s linear infinite}
+.home-refined .mineral-group{display:flex;gap:24px;padding-right:24px;flex-shrink:0}
+.home-refined .mineral-stage{margin:0;flex:0 0 clamp(220px,25vw,340px);width:clamp(220px,25vw,340px);background:#faf7f1}
+.home-refined .mineral-stage img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
+.home-refined .mineral-pause{accent-color:#716044;width:18px;height:18px;vertical-align:middle;margin:0 8px 0 0}
+.home-refined .mineral-pause-label{display:inline-flex;align-items:center;min-height:44px;font-size:.85rem;cursor:pointer}
+
+.home-refined .mineral-image-note{font-size:.8rem;color:#626666;margin-top:24px}
+@keyframes mineral-drift{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:700px){.home-refined .mineral-gallery{margin-top:32px}}
+@media(prefers-reduced-motion:reduce){.home-refined .mineral-track{animation:none}.home-refined .mineral-window{overflow-x:auto;mask-image:none}.home-refined .mineral-group[aria-hidden]{display:none}.home-refined .mineral-pause,.home-refined .mineral-pause-label{display:none}}

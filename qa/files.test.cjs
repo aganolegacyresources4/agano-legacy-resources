@@ -76,11 +76,12 @@ test('classic scripts load in dependency order and optional features load only w
     if (feature('data-enquiry-form')) names.push('forms');
     if (feature('data-location')) names.push('maps-config', 'maps');
     names.push('effects', 'main');
+    if (page.ids.includes('mine-canvas')) names.push('homepage-video');
     assert.deepEqual(scripts.map(tag => path.basename(tag.attrs.src.split('?')[0], '.js')), names);
     for (const script of scripts) { assert.ok('defer' in script.attrs); assert.notEqual(script.attrs.type, 'module'); }
   }
   const js = files.filter(file => file.endsWith('.js') && file.includes(path.sep + 'assets' + path.sep));
-  assert.equal(js.length, 10);
+  assert.equal(js.length, 11);
   for (const file of js) {
     const text = fs.readFileSync(file, 'utf8'); assert.doesNotThrow(() => new vm.Script(text));
     assert.equal(/\b(?:fetch|eval)\s*\(|\b(?:localStorage|sessionStorage)\b|\.innerHTML\s*=/.test(text), false, file);
@@ -127,7 +128,7 @@ test('sitemap includes 31 content URLs and excludes the error page', () => {
 });
 test('provided contact details are present as static fallbacks on every page', () => {
   for (const page of pages) {
-    assert.ok(page.text.includes('Room 10, Tauro Tragus Building, Kwekwe'), page.file);
+    assert.ok(page.text.includes('1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe'), page.file);
     assert.ok(page.text.includes('tel:+263780948702'), page.file);
     assert.ok(page.text.includes('mailto:info@aganolegacyresources.co.zw'), page.file);
     assert.equal(/aria-current="page"\s+aria-current="page"/.test(page.text), false);

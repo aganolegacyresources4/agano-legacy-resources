@@ -1753,3 +1753,17 @@ p + .text-link { margin-top: 24px; }
   .menu-icon > span { background: ButtonText; }
   .nav-dropdown a[aria-current="page"] { border-color: Highlight; }
 }
+
+/* Operations menu: section headings and their destinations. */
+.operations-menu .operations-group + .operations-group{border-top:1px solid var(--line,#ddd5c7);margin-top:8px;padding-top:8px}
+.operations-menu .operations-group h3{font:inherit;margin:0}
+.operations-menu .operations-group h3 a,.operations-menu .operations-heading{font-weight:700;font-size:.82rem;letter-spacing:.03em}
+.operations-menu .operations-heading{padding:12px 16px;color:var(--charcoal)}
+.operations-menu .operations-children{list-style:none;padding:0 0 4px 12px;margin:0}
+.operations-menu .operations-children a{font-size:.82rem}
+.operations-menu{max-height:calc(100dvh - 130px);overflow-y:auto}
+
+.operations-menu .operations-heading-static{display:flex;align-items:center;min-height:44px;padding:11px 14px;font-size:.82rem;font-weight:700;letter-spacing:.03em;line-height:1.5;white-space:normal;overflow-wrap:anywhere;color:inherit}
+
+/* Heading labels without decorative leading dashes. */
+.eyebrow::before { display: none; }

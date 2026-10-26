@@ -60,7 +60,7 @@ The ambiguous Anzac phrase “shaft at 25%” is omitted. The supplied 18 m inte
 
 ## Contacts and hours
 
-Head office: Room 10, Tauro Tragus Building, Kwekwe, Zimbabwe. Telephone/WhatsApp: +263 78 094 8702. Email: info@aganolegacyresources.co.zw.
+Head office: 1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe. Telephone/WhatsApp: +263 78 094 8702. Email: info@aganolegacyresources.co.zw.
 
 Office hours, Africa/Harare time (CAT, UTC+2): Monday–Thursday 08:00–18:00; Friday 08:00–16:00; Sunday 09:00–13:00. Saturday hours were not supplied and the site does not label Saturday closed.
 

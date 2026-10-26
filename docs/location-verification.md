@@ -11,7 +11,7 @@ The latest company information establishes the mine names and general operating 
 | Sherwood Block Gold Mine | Central Midlands greenstone belt, Zimbabwe | Name search; exact visitor pin unverified |
 | Pagamesa Antimony Mine | Silobela–Gothic belt, with Fortuna, Pagamesa and Gothic reefs | Name/location search; exact visitor pin unverified |
 | Sebakwe Antimony Processing Plant | Sebakwe, Kwekwe, Zimbabwe | Facility search; exact visitor pin unverified |
-| AGANO head office | Room 10, Tauro Tragus Building, Kwekwe, Zimbabwe | Supplied-address search; precise office pin unverified |
+| AGANO head office | 1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe | Supplied-address search; precise office pin unverified |
 
 The four mine profiles retain their previous URL paths. The office and plant are separate record types; neither is counted as an additional mine or added to the form's four-entry site mapping.
 
@@ -24,7 +24,7 @@ The configuration and corresponding static HTML use:
 - AGANO Sherwood Block Gold Mine, Zimbabwe.
 - Pagamesa Antimony Mine, Gothic, Silobela, Zimbabwe.
 - AGANO antimony processing plant, Sebakwe, Kwekwe, Zimbabwe.
-- Room 10, Tauro Tragus Building, Kwekwe, Zimbabwe.
+- 1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe.
 
 Districts or coordinates have not been inferred from the head office. The latest detailed Sherwood description replaces the earlier Great Dyke shorthand in the copy; no precise pin is inferred from either geological description.
 

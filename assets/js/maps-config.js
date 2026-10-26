@@ -3,7 +3,7 @@ window.AGANO_MAPS_CONFIG = Object.freeze({
   embedApiKey: "",
   locations: Object.freeze({
     "globe-and-phoenix": Object.freeze({
-      "name": "LonRho Gold & Antimony Mine",
+      "name": "LonRho Mine",
       "kind": "site",
       "searchQuery": "LonRho Gold Antimony Mine, Globe and Phoenix, Kwekwe, Zimbabwe",
       "status": "search-only",
@@ -13,9 +13,9 @@ window.AGANO_MAPS_CONFIG = Object.freeze({
       "verification": Object.freeze({"verifiedOn":"","sourceUrl":""})
     }),
     "silobela": Object.freeze({
-      "name": "Pagamesa Antimony Mine",
+      "name": "Pagamesa mine",
       "kind": "site",
-      "searchQuery": "Pagamesa Antimony Mine, Gothic, Silobela, Zimbabwe",
+      "searchQuery": "Pagamesa mine, Gothic, Silobela, Zimbabwe",
       "status": "search-only",
       "publicAddress": "",
       "placeId": "",
@@ -45,9 +45,9 @@ window.AGANO_MAPS_CONFIG = Object.freeze({
     "head-office": Object.freeze({
       "name": "AGANO Legacy Resources head office",
       "kind": "office",
-      "searchQuery": "Room 10, Tauro Tragus Building, Kwekwe, Zimbabwe",
+      "searchQuery": "1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe",
       "status": "search-only",
-      "publicAddress": "Room 10, Tauro Tragus Building, Kwekwe, Zimbabwe",
+      "publicAddress": "1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe",
       "placeId": "",
       "embedUrl": "",
       "verification": Object.freeze({"verifiedOn":"","sourceUrl":""})
