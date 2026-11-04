@@ -112,7 +112,7 @@
           <p class="eyebrow" data-verbatim="pagamesa_country">Silobela, Gothic, ZIMBABWE</p>
           <p class="lead">Nicknamed the Stronghold, Pagamesa mine connects the historic Fortuna, Pagamesa and Gothic reefs across four operating shafts.</p>
         </div>
-      <button class="pagamesa-motion" type="button" aria-label="Pause image movement">Pause movement</button>
+      
       </section>
       <section class="section ">
         <div class="container">
@@ -227,7 +227,5 @@
         </div>
       </div>
     </footer>
-<script>
-(()=>{const hero=document.querySelector('.pagamesa-hero'),button=document.querySelector('.pagamesa-motion'),pref=matchMedia('(prefers-reduced-motion: reduce)');let playing=!pref.matches;function sync(){hero.classList.toggle('motion-paused',!playing);button.textContent=playing?'Pause movement':'Play movement';button.setAttribute('aria-label',playing?'Pause image movement':'Play image movement');}button.addEventListener('click',()=>{playing=!playing;sync()});pref.addEventListener('change',()=>{playing=!pref.matches;sync()});sync()})();
-</script></body>
+</body>
 </html>
