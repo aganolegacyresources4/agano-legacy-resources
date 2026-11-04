@@ -90,3 +90,5 @@
   .team-portrait-card .portrait-enlarge-cue { font-size: 9px; gap: 3px; padding: 4px; }
   .team-portrait-card .portrait-expand-icon { font-size: 13px; }
 }
+
+.portrait-enlarge-cue{left:auto;right:8px;transform:none;width:28px;height:28px;padding:4px;max-width:none}
