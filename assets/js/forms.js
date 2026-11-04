@@ -38,7 +38,7 @@
   }
   function compose(value) {
     return [
-      "AGANO LEGACY RESOURCES", LABELS[value.kind], "",
+      "Agano Legacy Resources", LABELS[value.kind], "",
       "Name: " + value.name,
       value.company ? "Company: " + value.company : "",
       "Email: " + value.email,
@@ -59,7 +59,7 @@
     var number = recipient((config || {}).whatsapp);
     var url = link(message, number);
     var manualPaste = url.length > 6500;
-    if (manualPaste) url = link("Hello AGANO Legacy Resources. I have prepared an enquiry and will paste the details into this conversation.", number);
+    if (manualPaste) url = link("Hello Agano Legacy Resources. I have prepared an enquiry and will paste the details into this conversation.", number);
     return { errors: {}, message: message, url: url, mode: number ? "direct" : "chooser", manualPaste: manualPaste };
   }
   function clearErrors(form) {
@@ -181,7 +181,7 @@
         preview.value = result.message;
         destination.href = result.url;
         destination.textContent = result.manualPaste ? "Open WhatsApp, then paste your message →" : "Continue in WhatsApp →";
-        routing.textContent = result.mode === "direct" ? "The message is addressed to the configured AGANO WhatsApp number. Review it and press Send in WhatsApp." : "WhatsApp will ask you to choose a conversation. Select your AGANO contact, review the message and press Send there.";
+        routing.textContent = result.mode === "direct" ? "The message is addressed to the configured Agano WhatsApp number. Review it and press Send in WhatsApp." : "WhatsApp will ask you to choose a conversation. Select your Agano contact, review the message and press Send there.";
         if (result.manualPaste) routing.textContent += " This message is long: copy the complete text below and paste it into the conversation after opening WhatsApp.";
         review.hidden = false;
         copyStatus.textContent = "";
@@ -270,7 +270,7 @@
       announce("Complete the form, review your message, then continue in WhatsApp. Nothing is sent automatically.");
     });
   }
-  window.AGANO = window.AGANO || {};
+  window.Agano = window.Agano || {};
   window.AGANO.whatsapp = Object.freeze({ recipient: recipient, validate: validate, compose: compose, link: link, prepare: prepare });
   window.AGANO.initForms = initForms;
 })();

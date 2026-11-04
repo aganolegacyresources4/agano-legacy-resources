@@ -1767,3 +1767,6 @@ p + .text-link { margin-top: 24px; }
 
 /* Heading labels without decorative leading dashes. */
 .eyebrow::before { display: none; }
+
+/* Keep the brand spelling as written, including in uppercase headings. */
+.brand-case{text-transform:none}

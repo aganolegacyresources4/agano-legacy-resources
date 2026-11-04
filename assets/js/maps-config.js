@@ -35,7 +35,7 @@ window.AGANO_MAPS_CONFIG = Object.freeze({
     "sherwood": Object.freeze({
       "name": "Sherwood Block Gold Mine",
       "kind": "site",
-      "searchQuery": "AGANO Sherwood Block Gold Mine, Zimbabwe",
+      "searchQuery": "Agano Sherwood Block Gold Mine, Zimbabwe",
       "status": "search-only",
       "publicAddress": "",
       "placeId": "",
@@ -43,7 +43,7 @@ window.AGANO_MAPS_CONFIG = Object.freeze({
       "verification": Object.freeze({"verifiedOn":"","sourceUrl":""})
     }),
     "head-office": Object.freeze({
-      "name": "AGANO Legacy Resources head office",
+      "name": "Agano Legacy Resources head office",
       "kind": "office",
       "searchQuery": "9215 Harare Road, Kwekwe, Zimbabwe",
       "status": "search-only",
@@ -55,7 +55,7 @@ window.AGANO_MAPS_CONFIG = Object.freeze({
     "processing-plant": Object.freeze({
       "name": "Sebakwe Antimony Processing Plant",
       "kind": "facility",
-      "searchQuery": "AGANO antimony processing plant, Sebakwe, Kwekwe, Zimbabwe",
+      "searchQuery": "Agano antimony processing plant, Sebakwe, Kwekwe, Zimbabwe",
       "status": "search-only",
       "publicAddress": "",
       "placeId": "",
