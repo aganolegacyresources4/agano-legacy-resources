@@ -21,4 +21,4 @@
 #agano-concept .hero:before{z-index:1}
 #agano-concept .hero-inner{z-index:2}
 
-#agano-concept .about-label{display:block;text-transform:none;letter-spacing:1.4px;white-space:nowrap;margin:0 0 12px;line-height:1.4}
+#agano-concept .about-label{font-size:13px;display:block;text-transform:none;letter-spacing:1.4px;white-space:nowrap;margin:0 0 12px;line-height:1.4}
