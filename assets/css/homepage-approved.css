@@ -16,3 +16,7 @@
 #agano-concept .minerals-section h3+ p{color:#d6e1e5}
 #agano-concept .minerals-section h3:not(:first-child){margin-top:25px}
 #agano-concept .hero,#agano-concept .intro,#agano-concept .sites,#agano-concept .closing{padding-left:max(6%,env(safe-area-inset-left));padding-right:max(6%,env(safe-area-inset-right))}
+
+#agano-concept .hero-picture{z-index:0}
+#agano-concept .hero:before{z-index:1}
+#agano-concept .hero-inner{z-index:2}
