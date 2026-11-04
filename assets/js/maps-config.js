@@ -45,9 +45,9 @@ window.AGANO_MAPS_CONFIG = Object.freeze({
     "head-office": Object.freeze({
       "name": "AGANO Legacy Resources head office",
       "kind": "office",
-      "searchQuery": "1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe",
+      "searchQuery": "9215 Harare Road, Kwekwe, Zimbabwe",
       "status": "search-only",
-      "publicAddress": "1, Ward 8, Sebakwe Bloke, Kwekwe, Zimbabwe",
+      "publicAddress": "9215 Harare Road, Kwekwe, Zimbabwe",
       "placeId": "",
       "embedUrl": "",
       "verification": Object.freeze({"verifiedOn":"","sourceUrl":""})
