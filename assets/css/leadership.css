@@ -1,6 +1,6 @@
 .founder-card {
-  width: min(100%, 400px);
-  margin: 0 auto 40px;
+  width: min(100%, 220px);
+  margin: 0 auto 28px;
   padding: 0;
   overflow: hidden;
   text-align: center;
@@ -10,19 +10,42 @@
   width: 100%;
   height: auto;
 }
-.founder-details { padding: 24px; }
-.founder-details h3 { margin: 0 0 8px; }
-.founder-details p { margin: 0; }
-@media (max-width: 600px) {
-  .founder-card { max-width: 340px; margin-bottom: 28px; }
+.founder-details,
+.team-portrait-details { padding: 14px 12px; }
+.founder-details h3,
+.team-portrait-details h3 { margin: 0 0 5px; font-size: 17px; line-height: 1.3; }
+.founder-details p,
+.team-portrait-details p { margin: 0; font-size: 13px; line-height: 1.45; }
+.leadership-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 190px));
+  justify-content: center;
+  align-items: start;
+  gap: 24px;
+  width: min(100%, 618px);
+  margin: 0 auto;
 }
-
-.leadership-row-two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; width: calc((100% - 24px) * 2 / 3); margin: 24px auto 0; }
-@media (max-width: 700px) { .leadership-row, .leadership-row-two { grid-template-columns: 1fr; width: 100%; } }
-
-.team-portrait-card { padding: 0; overflow: hidden; }
-.team-portrait-card img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; }
-.team-portrait-details { padding: 24px; }
-.team-portrait-details h3 { margin: 0 0 8px; }
-.team-portrait-details p { margin: 0; }
-.leadership-row-two { align-items: start; }
+.leadership-row-two {
+  grid-template-columns: repeat(2, minmax(0, 190px));
+  width: min(100%, 404px);
+  margin-top: 24px;
+}
+.team-portrait-card { padding: 0; overflow: hidden; text-align: center; }
+.team-portrait-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 700px) {
+  .founder-card { width: min(100%, 220px); margin-bottom: 24px; }
+  .leadership-row,
+  .leadership-row-two {
+    grid-template-columns: minmax(0, 200px);
+    width: min(100%, 200px);
+    gap: 22px;
+  }
+  .leadership-row-two { margin-top: 22px; }
+}
