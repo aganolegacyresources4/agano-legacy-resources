@@ -18,6 +18,15 @@
     var dock = document.createElement("div");
     dock.className = "utility-dock";
     dock.setAttribute("data-utility-dock", "");
+    var shortcut = document.createElement("a");
+    shortcut.className = "whatsapp";
+    var onArticle = /\/(?:news|sites)\/[^/]+\.html$/.test(window.location.pathname);
+    shortcut.href = (onArticle ? "../" : "") + "contact.html#enquiry";
+    shortcut.setAttribute("aria-label", "Prepare a WhatsApp enquiry");
+    var icon = document.createElement("img");
+    icon.src = (onArticle ? "../" : "") + "assets/icons/whatsapp.svg";
+    icon.alt = ""; icon.width = 28; icon.height = 28;
+    shortcut.append(icon);
     var top = document.createElement("a");
     top.className = "utility-top";
     top.href = "#top";
@@ -28,7 +37,7 @@
     arrow.textContent = "↑";
     arrow.setAttribute("aria-hidden", "true");
     top.append(arrow);
-    dock.append(top);
+    dock.append(shortcut, top);
     var footer = document.querySelector(".site-footer");
     if (footer) footer.before(dock); else document.body.append(dock);
   }
