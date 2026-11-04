@@ -73,3 +73,20 @@
 .portrait-caption { text-align: center; margin-top: 14px; }
 .portrait-caption h2 { margin: 0 0 5px; font-size: 22px; }
 .portrait-caption p { margin: 0; font-size: 14px; }
+
+.portrait-open { position: relative; }
+.portrait-enlarge-cue {
+  position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);
+  display: flex; align-items: center; justify-content: center; gap: 5px;
+  width: max-content; max-width: calc(100% - 8px);
+  padding: 5px 7px; background: rgb(18 32 40 / 90%); color: #fff;
+  border: 1px solid rgb(255 255 255 / 55%); border-radius: 3px;
+  font: 500 11px/1.2 Arial, sans-serif; pointer-events: none;
+}
+.portrait-expand-icon { font-size: 17px; line-height: 1; }
+.portrait-open:hover .portrait-enlarge-cue,
+.portrait-open:focus-visible .portrait-enlarge-cue { background: #243e4b; }
+@media (max-width: 400px) {
+  .team-portrait-card .portrait-enlarge-cue { font-size: 9px; gap: 3px; padding: 4px; }
+  .team-portrait-card .portrait-expand-icon { font-size: 13px; }
+}
