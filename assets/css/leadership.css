@@ -57,3 +57,19 @@
   .team-portrait-details h3 { font-size: clamp(12px, 2.8vw, 16px); overflow-wrap: anywhere; }
   .team-portrait-details p { font-size: clamp(10px, 2.3vw, 13px); overflow-wrap: anywhere; }
 }
+
+/* Consistent portrait frames and aligned caption cards. */
+.leadership-row { align-items: stretch; }
+.founder-card, .team-portrait-card { display: flex; flex-direction: column; }
+.portrait-open { display: block; width: 100%; padding: 0; border: 0; background: transparent; cursor: zoom-in; flex: none; }
+.portrait-open:focus-visible { outline: 3px solid #b39051; outline-offset: -3px; }
+.founder-card .portrait-open img, .team-portrait-card .portrait-open img { width: 100%; aspect-ratio: 4 / 5; height: auto; object-fit: cover; object-position: center; }
+.founder-details, .team-portrait-details { flex: 1; }
+.portrait-dialog { width: min(92vw, 760px); max-height: 94dvh; padding: 0; border: 1px solid #b7c4c9; background: #f5f1e8; color: #202a2e; overflow: auto; }
+.portrait-dialog::backdrop { background: rgb(8 18 24 / 85%); }
+.portrait-frame { position: relative; padding: 54px 16px 18px; }
+.portrait-close { position: absolute; top: 8px; right: 10px; min-height: 38px; padding: 6px 14px; border: 1px solid #65747b; background: #f5f1e8; color: #202a2e; font: inherit; cursor: pointer; }
+.portrait-large { display: block; width: 100%; height: auto; max-height: 70dvh; object-fit: contain; }
+.portrait-caption { text-align: center; margin-top: 14px; }
+.portrait-caption h2 { margin: 0 0 5px; font-size: 22px; }
+.portrait-caption p { margin: 0; font-size: 14px; }
